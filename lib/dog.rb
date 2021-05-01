@@ -17,7 +17,7 @@ class Dog
   end 
   
   def self.print_all 
-    @name 
+    @@all.collect {|dog| dog.name}
   end 
   
   def save()
