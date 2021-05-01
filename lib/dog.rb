@@ -13,7 +13,7 @@ class Dog
   end
   
   def self.clear_all 
-    
+    @@all.delete 
   end 
   
   def self.print_all 
